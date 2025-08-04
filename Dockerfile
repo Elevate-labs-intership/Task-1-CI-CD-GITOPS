@@ -16,7 +16,7 @@ RUN  git clone https://github.com/Elevate-labs-intership/Task-1-CI-CD-GITOPS.git
 
 # Install dependencies and build the project
 WORKDIR /usr/src/app/Task-1-CI-CD-GITOPS
-RUN npm install && npm run build
+RUN npm install --legacy-peer-deps && npm run build
 
 
 # ----------- Runtime Stage -----------
