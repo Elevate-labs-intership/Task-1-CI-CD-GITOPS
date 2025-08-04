@@ -1,0 +1,7 @@
+
+services:
+  Web:
+    image: hatakekakashihk/webapp:latest
+    container_name: Website
+    ports:
+      - "3000:3000"
